@@ -52,3 +52,4 @@ nb-configuration.xml
 *.swp
 release.properties
 pom.xml.releaseBackup
+test-output/
