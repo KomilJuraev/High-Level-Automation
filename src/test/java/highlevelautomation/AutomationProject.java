@@ -41,11 +41,11 @@ public class AutomationProject {
 		driver.manage().window().fullscreen();
 	}
 
-	// @AfterMethod
-	// public void tearDown() throws InterruptedException {
-	// Thread.sleep(2000);
-	// driver.close();
-	// }
+	 @AfterMethod
+	 public void tearDown() throws InterruptedException {
+	 Thread.sleep(2000);
+	 driver.close();
+	 }
 
 	@Test(priority = 1) // Task - 3_4
 	public void titleTest_headerTest() {

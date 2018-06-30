@@ -5,7 +5,16 @@
     <classes>
       <class name="highlevelautomation.AutomationProject">
         <methods>
+          <include name="rowCSVUnix_Check"/>
+          <include name="checked_Uncheked"/>
+          <include name="titleTest_headerTest"/>
           <include name="setUp"/>
+          <include name="label_button_Check"/>
+          <include name="downloadData"/>
+          <include name="addCity"/>
+          <include name="remove"/>
+          <include name="tearDown"/>
+          <include name="addCountry"/>
           <include name="uploadFileToEclipse"/>
         </methods>
       </class> <!-- highlevelautomation.AutomationProject -->
