@@ -41,7 +41,7 @@ public class AutomationProject {
 		driver.manage().window().fullscreen();
 	}
 
-	 @AfterMethod
+	 @AfterClass
 	 public void tearDown() throws InterruptedException {
 	 Thread.sleep(2000);
 	 driver.close();

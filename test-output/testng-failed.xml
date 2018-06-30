@@ -7,7 +7,6 @@
         <methods>
           <include name="rowCSVUnix_Check"/>
           <include name="checked_Uncheked"/>
-          <include name="titleTest_headerTest"/>
           <include name="setUp"/>
           <include name="label_button_Check"/>
           <include name="downloadData"/>
